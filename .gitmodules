@@ -1,0 +1,3 @@
+[submodule ".ohmyzsh"]
+	path = .bluepill
+	url = git@github.com:ohmyzsh/ohmyzsh.git

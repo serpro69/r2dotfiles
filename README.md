@@ -1,10 +1,10 @@
-# :rocket:  .rebel-config
+# :rocket:  r2dotfiles
 
-> These are the dotfiles you're looking for
+> These are not the .files you're looking for
 
-...for Bash / ZSH / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows based on [voku/dotfiles](https://github.com/voku/dotfiles)
+...for Bash / ZSH / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows
 
---> [Screenshots & Screencasts](https://github.com/voku/dotfiles/wiki/Images)
+--> [Screenshots & Screencasts](https://github.com/serpro69/r2dotfiles/wiki/Images)
 
 ## Installation
 
@@ -14,7 +14,7 @@ You can clone the repository wherever you want. (I like to keep it in `~/Project
 
 ```bash
 # get the code
-cd ~ ; git clone https://github.com/voku/dotfiles.git; cd dotfiles
+cd ~ ; git clone --recurse-submodules https://github.com/serpro69/r2dotfiles.git dotfiles; cd dotfiles
 
 # only for Debian based e.g. Ubuntu, Lubuntu, Kubuntu etc.
 ./firstInstallDebianBased.sh
@@ -72,7 +72,7 @@ git config --file=$HOME/.gitconfig.extra user.email "$GIT_AUTHOR_EMAIL"
 git config --file=$HOME/.gitconfig.extra push.default simple
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/voku/dotfiles/fork) instead, though. And you can use `~/.vimrc.extra` to edit the vim settings without touching the main configuration.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/serpro69/r2dotfiles/fork) instead, though. And you can use `~/.vimrc.extra` to edit the vim settings without touching the main configuration.
 
 ## Run the tests
 
@@ -84,9 +84,7 @@ zsh .redpill/tests/functions-tests.sh
 
 ## Feedback
 
-Suggestions/improvements
-[welcome](https://github.com/voku/dotfiles/issues)!
-
+Suggestions/improvements [welcome](https://github.com/serpro69/r2dotfiles/issues)!
 
 ## Thanks to…
 
