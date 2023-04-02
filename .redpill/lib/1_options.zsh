@@ -86,6 +86,8 @@ setopt AUTO_LIST
 setopt LIST_TYPES
 # extra completion
 setopt COMPLETE_ALIASES
+# Fix for zsh-z completion
+compdef _zshz ${ZSHZ_CMD:-${_Z_CMD:-z}}
 # if unset, the cursor is set to the end of the word if completion is started. Otherwise it stays there and completion is done from both ends
 setopt COMPLETE_IN_WORD
 # if a completion is performed with the cursor within a word, and a full completion is inserted, the cursor is moved to the end of the word
