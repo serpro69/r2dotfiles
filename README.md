@@ -1,6 +1,8 @@
-# :bookmark_tabs:  .dotfiles 
+# :rocket:  .rebel-config
 
-... for Bash / ZSH / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows
+> These are the dotfiles you're looking for
+
+...for Bash / ZSH / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows based on [voku/dotfiles](https://github.com/voku/dotfiles)
 
 --> [Screenshots & Screencasts](https://github.com/voku/dotfiles/wiki/Images)
 
@@ -88,6 +90,7 @@ Suggestions/improvements
 
 ## Thanks to…
 
+* [voku](https://github.com/voku) and his [dotfiles](https://github.com/voku/dotfiles) which served as the primary source and inspiration for these configs
 * [DrVanScott](https://github.com/DrVanScott/) and his [dotfiles repository](https://github.com/DrVanScott/dotfiles)
 * [TuxCoder](https://github.com/TuxCoder/) and his [dotfiles repository](https://github.com/tuxcoder/dotfiles)
 * [Mathias Bynens](https://github.com/mathiasbynens/) and his awesome [dotfiles repository](https://github.com/mathiasbynens/dotfiles/)
