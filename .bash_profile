@@ -64,18 +64,3 @@ shopt -s no_empty_cmd_completion;
 # Do not overwrite files when redirecting using ">".
 # Note that you can still override this with ">|".
 #set -o noclobber;
-
-############# EXTRA ####################################
-
-if [ -d $HOME/.redpill ]; then
-
-  # define the path from "red-pill"
-  export REDPILL=$HOME/.redpill
-
-  # Which plugins would you like to load? (plugins can be found in ~/.redpill/plugins/available/*)
-  # Example format: plugins=(rails git textmate ruby lighthouse)
-  # Add wisely, as too many plugins slow down shell startup.
-  plugins=$(echo $CONFIG_BASH_PLUGINS | sed 's/(//g' | sed 's/)//g')
-
-  source $HOME/.redpill/redpill-init-bash.sh
-fi
